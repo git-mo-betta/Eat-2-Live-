@@ -42,13 +42,14 @@ html {
     
 }
 
+
+
 .title {
     text-align: center;
     color: rgb(252, 206, 1);
     font-size: 50px;
     font-family: 'Domine', serif;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.3);
     display: inline-block;
     text-align: left;
     /*In order to have this title centered you had to use the "text-align"
