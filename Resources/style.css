@@ -63,7 +63,7 @@ html {
 
 .quote {
     text-align: center;
-    color: rgb(252, 206, 1);
+    color: rgb(252, 1, 1);
     font-size: 25px;
     font-family: 'Kalam', cursive;
     
@@ -85,7 +85,7 @@ body {
     margin-left: 0;
     background-color: yellow;
     font-family: 'Kalam', cursive;
-    font-size: 30px;
+    font-size: 25px;
     
    
   
@@ -117,12 +117,15 @@ body {
 }
 
 ul {
-    font-family:  'Kalam', cursive;
+    
     font-weight: 700;
     text-align: center;
     margin-top: 30px;
 }
-h2 {
+
+.Type h2 {
+  font-size: 45px;
+  text-decoration: underline;
     font-family: 'Domine', serif;
     font-weight: 600;
     color: rgb(252, 206, 1);
@@ -131,6 +134,7 @@ h2 {
 }
 
 .Type {
+  
   display: flexbox;
   font-size: 25px;
   text-align: center;
@@ -152,4 +156,68 @@ h2 {
   left: 50%;
   overflow: auto;
 
+}
+/*recipe pages*/
+
+.recipe-title {
+font-size: 45px;
+color: rgb(252, 206, 1);
+text-decoration: underline;
+
+}
+
+.ingredients {
+
+  display: flexbox;
+  padding: 40px;
+  
+}
+
+.ingredients h3 {
+
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.prep {
+
+  display: flexbox;
+  
+  flex-direction: column;
+  height: auto;
+  line-height: 40px;
+}
+
+.prep h3 {
+
+  font-size: 30px;
+  padding-bottom: 20px;
+
+}
+
+.prep p {
+
+  font-size: 20px;
+}
+
+.action {
+
+  display: flexbox;
+  
+  flex-direction: column;
+  height: auto;
+  line-height: 40px;
+}
+
+.action h3 {
+
+  font-size: 30px;
+  padding-bottom: 20px;
+
+}
+
+.action p {
+
+  font-size: 20px;
 }
