@@ -179,6 +179,7 @@ ul {
 
 }
 
+
 .container img {
 
   height: 300px;
@@ -195,6 +196,33 @@ ul {
 .bottom-container h3 {
   text-decoration: underline;
 }
+
+.green-container {
+  
+  
+  background-color: green;
+  color: white;
+
+}
+
+
+.green-container img {
+
+  height: 300px;
+  width: 300px;
+}
+
+
+.green-bottom-container {
+
+  background-color: olivedrab;
+  color: white
+}
+
+.green-bottom-container h3 {
+  text-decoration: underline;
+}
+
 .recipe-title {
 font-size: 45px;
 color: white;
