@@ -222,6 +222,28 @@ ul {
 .green-bottom-container h3 {
   text-decoration: underline;
 }
+.brown-container {
+
+  background-color: peru;
+  color: white;
+}
+
+.brown-container img {
+
+  height: 300px;
+  width: 300px;
+}
+
+
+.brown-bottom-container {
+
+  background-color: saddlebrown;
+  color: white
+}
+
+.brown-bottom-container h3 {
+  text-decoration: underline;
+}
 
 .recipe-title {
 font-size: 45px;
