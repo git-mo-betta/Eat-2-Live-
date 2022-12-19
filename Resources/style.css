@@ -309,3 +309,52 @@ text-decoration: underline;
   font-size: 20px;
   font-family: 'Kalam', cursive;
 }
+
+/* Healthy Animations */
+
+.animation-box {
+
+  position: absolute;
+ 
+  background-color: salmon;
+  border: 2px white solid;
+  left: -350px;
+  z-index: 10;
+  top: 30%;
+  height: 400px;
+  width: 400px;
+  transition-duration: 2s;
+  
+  
+  
+  
+  
+}
+.animation-box img {
+
+  position: relative;
+  top: 200px;
+  left: 230px;
+  margin-right: 0px;
+  margin: auto 0 auto auto;
+  display:inline
+}
+
+.healthy-animation {
+
+  position: relative;
+  color: yellow;
+  
+  
+  
+
+}
+
+
+
+.animation-box:hover {
+
+  margin-left: 300px;
+  
+    
+  }
