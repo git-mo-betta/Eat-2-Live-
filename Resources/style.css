@@ -207,6 +207,7 @@ ul {
 
 
 .green-container img {
+  
 
   height: 300px;
   width: 300px;
@@ -313,19 +314,33 @@ text-decoration: underline;
 /* Healthy Animations */
 
 .animation-box {
-
+  
   position: absolute;
- 
-  background-color: salmon;
+  background-color: rgb(96, 238, 108);
   border: 2px white solid;
-  left: -350px;
+  left: 0px;
+  text-align: center;
   z-index: 10;
   top: 30%;
   height: 400px;
-  width: 400px;
-  transition-duration: 2s;
+  width: 300px;
   
   
+  
+  
+  
+}
+
+.animation-box h1 {
+
+  color: white;
+}
+/* The secret to aligning the ul is probably going to lie in google. it MAY have something to do with the fact that 
+it is by nature a block level element, we'll find out later */ 
+
+.animation-box li {
+  text-align: center;
+  position: relative;
   
   
   
@@ -337,7 +352,7 @@ text-decoration: underline;
   left: 230px;
   margin-right: 0px;
   margin: auto 0 auto auto;
-  display:inline
+  display: inline
 }
 
 .healthy-animation {
@@ -351,10 +366,3 @@ text-decoration: underline;
 }
 
 
-
-.animation-box:hover {
-
-  margin-left: 300px;
-  
-    
-  }
